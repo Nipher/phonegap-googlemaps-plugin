@@ -1,5 +1,19 @@
 phonegap-googlemaps-plugin
 ==========================
+
+Notes: this is a fork of @Nipher version and @Nipher is a fork of @wf9a5m75
+
+For rapid acesss you can add the following lines to your config.xml on "Phonegap Build"
+
+	<gap:plugin name="plugin.google.maps.menusito" version="1.2.5">
+		<param name="API_KEY_FOR_ANDROID" value="abc" />
+		<param name="API_KEY_FOR_IOS" value="123" />
+	</gap:plugin>
+	
+	This version work well with cli-5.1.1
+	
+	
+
 This plugin helps you leverage [Google Maps Android SDK v2](https://developers.google.com/maps/documentation/android/) and [Google Maps SDK for iOS](https://developers.google.com/maps/documentation/ios/) with your JavaScript.
 Both [PhoneGap](http://phonegap.com/) and [Apache Cordova](http://cordova.apache.org/) are supported.
 
